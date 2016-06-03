@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+	<div>
+		<h5>Notice: This app can only run in IE browser.</h5>
+		<h5>Before run this app, you have to enable ActiveXObject in IE.</h5>
+		<ul>
+			<li>Go to Tools-->Internet Options</li>
+			<li>Select security tab</li>
+			<li>Click on Trusted Sites (or Local Intranet depending on whether your site is trusted or not)</li>
+			<li>Click on Custom Level</li>
+			<li>Ensure that "Initialize and script active x controls is not marked safe for scripting" is enabled - this comes under Activex controls and plug-ins section towards 1/4th of the scroll bar.</li>
+			<li>Click OK, OK.</li>
+		</ul>
+	</div>
+
+	<h5>Please click button to load a text file</h5>
+	<button id="load">Load</button>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/3.2.2/es6-promise.min.js"></script>
+	<script src="app.js"></script>	
+</body>
+</html>
